@@ -14,8 +14,14 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "flow-bin": "^0.57.2",
+    "material-ui": "^1.0.0-beta.16",
+    "material-ui-icons": "^1.0.0-beta.15",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-native-web": "^0.1.9",
+    "react-responsive": "^2.0.0",
+    "react-slick": "^0.15.4",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
