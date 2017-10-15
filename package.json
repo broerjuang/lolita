@@ -20,6 +20,8 @@
     "react-dom": "^16.0.0",
     "react-native-web": "^0.1.9",
     "react-responsive": "^2.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.1.1",
     "react-slick": "^0.15.4",
     "slick-carousel": "^1.8.1"
   },
