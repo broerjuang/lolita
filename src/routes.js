@@ -6,7 +6,7 @@ import {LandingPage} from './pages';
 type Route = {
   title: string,
   path: string,
-  Component: React$Element<*>,
+  Component: React$Component<*>,
   otherProps?: any,
 };
 type Routes = Array<Route>;
@@ -18,7 +18,7 @@ let routes: Routes = [
   {title: 'sign up', path: '/sign-up', Component: DummyPage},
 ];
 
-function DummyPage(props) {
+function DummyPage(props: Object) {
   return (
     <View style={{marginTop: 100}}>
       <Text style={{fontSize: 32}}>{props.match.path}</Text>
