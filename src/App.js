@@ -1,10 +1,16 @@
 // @flow
 
 import React, {Component} from 'react';
+import {View} from './generals/core-ui';
+import Main from './Main.js';
 
-class App extends Component {
+class App extends Component<*> {
   render() {
-    return <h1>Hello World</h1>;
+    return (
+      <View>
+        <Main />
+      </View>
+    );
   }
 }
 
