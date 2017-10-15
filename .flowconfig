@@ -1,5 +1,7 @@
 [ignore]
-
+; Material UI
+<PROJECT_ROOT>/node_modules/jss/.*
+<PROJECT_ROOT>/node_modules/material-ui/.*
 [include]
 
 [libs]
